@@ -12,7 +12,7 @@ include(libopencm3)
 
 #================================================================================
 add_executable(${PROJECT_NAME}
-     src/main.cpp
+    main.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
